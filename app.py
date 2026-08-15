@@ -22,6 +22,3 @@ def script():
 @app.route("/style.css")
 def style():
     return send_from_directory(".", "style.css")
-if __name__ == "__main__":
-    if __name__ == "__main__":
-    app.run(debug=True)
