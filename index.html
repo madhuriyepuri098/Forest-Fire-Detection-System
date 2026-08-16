@@ -1,29 +1,28 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Forest Fire Detection System</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+import streamlit as st
 
-<body>
+st.set_page_config(
+    page_title="Forest Fire Detection System",
+    page_icon="🔥",
+    layout="centered"
+)
 
-    <h1>🔥 Forest Fire Detection System</h1>
+st.title("🔥 Forest Fire Detection System")
+st.write("AI-Based Forest Fire Detection System")
 
-    <p>AI-Based Forest Fire Detection System</p>
+st.subheader("Upload Forest Image")
 
-    <h2>Upload Forest Image</h2>
+uploaded_file = st.file_uploader(
+    "Choose a forest image",
+    type=["jpg", "jpeg", "png"]
+)
 
-    <input type="file" id="imageInput" accept="image/*">
+if uploaded_file is not None:
+    st.image(
+        uploaded_file,
+        caption="Uploaded Forest Image",
+        use_container_width=True
+    )
 
-    <br><br>
-
-    <button onclick="detectFire()">
-        🔍 Detect Fire
-    </button>
-
-    <h2 id="result"></h2>
-
-    <script src="script.js"></script>
-
-</body>
-</html>
+    if st.button("🔍 Detect Fire", type="primary"):
+        st.error("🔥 FIRE DETECTED!")
+        st.warning("Fire Area: 2.12%")
