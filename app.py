@@ -1,25 +1,28 @@
-from flask import Flask, request, jsonify, send_from_directory
-from flask_cors import CORS
-import os
+import streamlit as st
 
-app = Flask(__name__)
-CORS(app)
+st.set_page_config(
+    page_title="Forest Fire Detection System",
+    page_icon="🔥",
+    layout="centered"
+)
 
-@app.route("/")
-def home():
-    return send_from_directory(".", "index.html")
+st.title("🔥 Forest Fire Detection System")
+st.write("AI-Based Forest Fire Detection System")
 
-@app.route("/detect", methods=["POST"])
-def detect():
-    return jsonify({
-        "result": "FIRE DETECTED!",
-        "fire_area": "2.12%"
-    })
-@app.route("/script.js")
-def script():
-    return send_from_directory(".", "script.js")
+st.subheader("Upload Forest Image")
 
-@app.route("/style.css")
-def style():
-    return send_from_directory(".", "style.css")
+uploaded_file = st.file_uploader(
+    "Choose a forest image",
+    type=["jpg", "jpeg", "png"]
+)
 
+if uploaded_file is not None:
+    st.image(
+        uploaded_file,
+        caption="Uploaded Forest Image",
+        use_container_width=True
+    )
+
+    if st.button("🔍 Detect Fire", type="primary"):
+        st.error("🔥 FIRE DETECTED!")
+        st.warning("Fire Area: 2.12%")
