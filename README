@@ -1,1 +1,262 @@
-# Forest-Fire-Detection-System
+🔥 Forest Fire Detection System
+
+📌 Project Overview
+
+Forest Fire Detection System anedi AI/ML and Computer Vision based project. Ee system forest areas lo fire and smoke ni early stage lo detect cheyadaniki design chesam.
+
+Forest fires valla forests, wildlife, human lives mariyu property ki serious damage jaragachu. Kabatti fire ni early ga detect chesi immediate alert ivvadam ee project main purpose.
+
+System input ga images/video frames ni teesukoni, fire or smoke undho ledo analyze chestundi. Fire detect ayithe user ki Forest Fire Alert display cheyyagaladu.
+
+---
+
+🎯 Objectives
+
+Ee project main objectives:
+
+- 🔥 Forest fire ni early stage lo detect cheyadam
+- 💨 Smoke and fire ni identify cheyadam
+- 🌡️ Environmental conditions ni monitor cheyadam
+- 🚨 Fire detect ayinappudu alert generate cheyadam
+- 🌳 Forests and wildlife ni protect cheyadaniki help cheyadam
+- 📊 Monitoring information ni web application/dashboard lo display cheyadam
+- 🤖 AI/ML techniques use chesi detection ni improve cheyadam
+
+---
+
+⚙️ How the System Works
+
+System workflow:
+
+Input Image / Video
+        ↓
+Image Preprocessing
+        ↓
+Fire / Smoke Detection
+        ↓
+Confidence Evaluation
+        ↓
+Alert Generation
+        ↓
+Result Display
+
+Input image/video ni system analyze chestundi. Fire or smoke detect ayithe detection confidence ni evaluate chesi, predefined threshold kanna ekkuva unte Forest Fire Alert generate chestundi.
+
+---
+
+🧠 Technologies Used
+
+- Python
+- AI / Machine Learning
+- Computer Vision
+- OpenCV
+- PyTorch
+- YOLO / Deep Learning
+- HTML
+- CSS
+- JavaScript
+- Streamlit / Web Interface
+- CSV Dataset
+- Trained ML Model
+
+Project report prakaram recommended technology stack lo Python backend, HTML/CSS/JavaScript or Streamlit interface, YOLO AI model, PyTorch deep-learning framework, and OpenCV computer vision use chestaru.
+
+---
+
+📂 Project Files
+
+Repository lo main files:
+
+Forest-Fire-Detection-System/
+│
+├── app.py
+├── forest_fires.csv
+├── forest_fire_model.pkl
+├── index.html
+├── requirements.txt
+├── script.js
+├── style.css
+└── README.md
+
+"app.py"
+
+Main application code. User input ni process chesi fire detection result ni display cheyadaniki use chestundi.
+
+"forest_fires.csv"
+
+Forest-fire related dataset/data information kosam use chese CSV file.
+
+"forest_fire_model.pkl"
+
+Trained machine-learning model file.
+
+"index.html"
+
+Web interface structure kosam use chese HTML file.
+
+"style.css"
+
+Application/web page design and styling kosam.
+
+"script.js"
+
+Web page interactions kosam JavaScript file.
+
+"requirements.txt"
+
+Project run cheyadaniki required Python libraries list.
+
+---
+
+🚨 Detection Results
+
+System possible ga following results ni provide chestundi:
+
+🌳 Normal Forest
+
+Forest Image
+     ↓
+No Fire Detected
+     ↓
+Normal Status
+
+💨 Smoke Detected
+
+Forest Image
+     ↓
+Smoke Detected
+     ↓
+Early Warning
+
+🔥 Fire Detected
+
+Forest Image
+     ↓
+Fire Detected
+     ↓
+High Confidence
+     ↓
+Forest Fire Alert
+
+Detection result lo Fire/Smoke, bounding box, confidence score, detection status and alert lantivi display cheyagaladu.
+
+---
+
+🚀 Installation & Running
+
+1. Repository Clone
+
+git clone https://github.com/madhuriyeepuri098/Forest-Fire-Detection-System.git
+
+2. Project Folder ki vellandi
+
+cd Forest-Fire-Detection-System
+
+3. Required Libraries Install Cheyyandi
+
+pip install -r requirements.txt
+
+4. Application Run Cheyyandi
+
+"app.py" lo use chestunna framework batti application ni run cheyyandi.
+
+For Streamlit:
+
+streamlit run app.py
+
+Browser lo application open ayyaka image/video input ichhi fire detection test cheyyachu.
+
+---
+
+🌍 Applications
+
+Ee system following places lo useful ga untundi:
+
+- 🌳 Forest areas
+- 🌲 National parks
+- 🐅 Wildlife sanctuaries
+- 🏕️ Camping and remote areas
+- 🌾 Agricultural areas near forests
+- 🏘️ Forest areas ki nearby communities
+- 🚒 Forest departments and fire departments
+
+---
+
+✅ Advantages
+
+- 🔥 Early fire detection
+- ⚡ Fast response
+- 🤖 Automatic detection
+- 📹 Real-time monitoring possibility
+- 💨 Fire and smoke detection
+- 📍 Fire region localization
+- 🕐 24/7 monitoring possibility
+- 🌳 Large-area monitoring possibility
+- 💰 Cost-effective monitoring
+- 📈 Scalable system
+- 🚨 Automatic alerts
+
+---
+
+⚠️ Limitations
+
+- Dataset quality meeda model performance depend avutundi.
+- Small or distant fires detect cheyadam difficult avvachu.
+- Fog, rain, darkness and heavy smoke detection accuracy ni affect cheyyachu.
+- Sunlight, clouds or red/orange objects valla false positives ravachu.
+- Deep-learning model training ki high computational resources/GPU avasaram undachu.
+- Camera quality and placement detection performance ni affect chestayi.
+- Internet-based monitoring ki network connectivity avasaram undachu.
+- AI detection potential fire ni indicate chestundi kani every detection real fire ani guarantee cheyyadu.
+
+---
+
+🔮 Future Enhancements
+
+Future lo system ni inka improve cheyadaniki:
+
+- 📹 CCTV cameras integration
+- 🚁 Drone-based fire monitoring
+- 📡 IoT sensors integration
+- 📍 GPS/GIS based fire location
+- 📱 Mobile application
+- 📧 Email/SMS alerts
+- ☁️ Cloud deployment
+- 🤖 Improved deep-learning models
+- 📊 Advanced monitoring dashboard
+
+add cheyyachu.
+
+---
+
+👩‍💻 Project Team
+
+Team Members:
+
+1. Yepuri Madhuri
+2. Yanamadala Vijayalalitha
+3. Valluri Bhargavidevi
+4. Vasamsetti Rani
+
+Project Guide:
+Mr. Abdul Aziz Md
+
+---
+
+📌 Conclusion
+
+Forest Fire Detection System anedi AI, Deep Learning and Computer Vision use chesi forest fire and smoke ni automatically detect cheyadaniki develop chesina project.
+
+Early warning ivvadam dwara fire spread ni reduce cheyadaniki, forests and wildlife ni protect cheyadaniki, and emergency response ni faster ga cheyadaniki ee system useful ga untundi.
+
+Overall ga, ee project smart, automated and real-time forest-fire monitoring ki oka useful foundation.
+
+---
+
+📜 License
+
+This project is developed for academic/project purposes.
+
+---
+
+⭐ If you find this project useful, please consider giving this repository a Star!
